@@ -1,0 +1,13 @@
+[lints.rust]
+unsafe_code = "warn"
+missing_docs = "warn"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
+nursery = "warn"
+perf = "warn"
+
+# Allow intentional unsafe code in kernel
+unsafe_code_in_unsafe_fn = "allow"
+missing_docs_in_crate_items = "allow"

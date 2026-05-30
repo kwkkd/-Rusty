@@ -1,0 +1,16 @@
+/target
+/Cargo.lock
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.bin
+*.iso
+*.img
+boot-image.bin
+*.o
+*.a
+*.so
